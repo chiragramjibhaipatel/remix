@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "scripts": {
+    "dev": "remix dev -c \"node server.mjs\""
+  },
   "dependencies": {
     "@remix-run/express": "^2.0.0",
     "@remix-run/node": "^2.0.0",
